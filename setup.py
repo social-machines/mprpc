@@ -34,7 +34,7 @@ setup(
     install_requires=[
         'gsocketpool',
         'gevent',
-        'msgpack-python',
+        'msgpack>=1.0',
     ],
     tests_require=[
         'nose',

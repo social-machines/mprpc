@@ -1,6 +1,15 @@
 mprpc
 =====
 
+This is a fork of the mprpc library maintained by the Lab for Social
+Machines at the MIT Media Lab. It contains two changes:
+
+1. Integrates Unix domain socket support from
+   a-sk/unix_socket_support.
+
+2. Updates the msgpack dependency and usage to be the maintained
+   msgpack library, rather than msgpack-python.
+
 .. image:: https://badge.fury.io/py/mprpc.png
     :target: http://badge.fury.io/py/mprpc
 
